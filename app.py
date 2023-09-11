@@ -59,7 +59,7 @@ def main():
             st.write("Your article topic: ", userInput)
             st.write("Your image topic: ", imageResponse)
 
-            prompt_template = """You are a digital marketing and SEO expert and your task is to generate articles for a given topic. Write an article on {topic} of 800 words. Stay on the user's topic. Maintain a professional but creative tone."""
+            prompt_template = """Your task is to generate articles for a given topic. Write an article on {topic} of 800 words. Stay on the user's topic. Maintain a professional but creative tone."""
 
             # result = "article stuff is going here..."
             # st.write(result)
